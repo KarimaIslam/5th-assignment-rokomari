@@ -131,13 +131,17 @@ display: flex;
     margin-right: 35px;
 }
 .sticky-refer span {
-    font-size: 16px;
+    font-size: 15px;
     margin: 0 5px;
-    font-weight: 700;
+    font-weight: 400;
 }
 .refer a{
     text-decoration: none;
     color: black;
+    transition: 0.8s;
+}
+.sticky-refer:hover{
+    color: #0397D3;
 }
 .sticky-refer{
     background-color: #FFFFFF;
@@ -198,11 +202,7 @@ display: flex;
 .list-book:hover{
     opacity: 0.3;
 }
-.list-book::before {
-    box-sizing: border-box;
-    box-shadow: 0px 3px 6px -4px #a2a2a2;
-    content: ('bton');
-}
+
                 /* book category */
 .book-category{
     height: 250px;
@@ -218,9 +218,9 @@ display: flex;
     padding-top: 15px;
 }
 .book-category span{
-        font-size: 80%;
-        color: #aaa;
-        padding-left: 10px;
+    font-size: 80%;
+    color: #aaa;
+    padding-left: 10px;
 }
 .bookcategory{
     display: flex;
@@ -369,7 +369,6 @@ margin-top: 15px;
 padding: 15px 0;
 background-color: #f1f2f4;
 font-size: 90%;
-max-width: 100%;
 }
 .footer p{
     text-align: center;
@@ -390,8 +389,144 @@ max-width: 100%;
     top: 45%;
     border: 1px solid #e7e7e7;
     background: linear-gradient(#fdfdfd, #FFFFFF);
-    box-shadow: 0 0 3px 2px rgba(231, 231, 231, 0.75);
+    box-shadow: 0.4px 0.5px 0.5px 0.5px rgb(0 0 0 / 15%);
     padding: 2px 6px 10px 6px ;
     border-radius: 4px;  
     cursor: pointer;
+}
+                            /* footer */
+footer {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 4px 19px -2px #9c9c9c;
+    margin-bottom: 25px;
+    margin-top: 30px;
+    position: relative;
+    height: 500px;
+    cursor: pointer;
+}
+.flogo{
+    margin: 30px;
+    position: absolute;
+}
+.fa-user-shield{
+    font-size: 15px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left:30px ;
+}
+.fa-handshake{
+    font-size: 15px;
+    position: absolute;
+    margin-top: 220px;
+    margin-left:30px ;
+      }
+.hotline{
+    margin-top: 150px;
+    margin-left: 70px;
+    position: absolute;
+    font-size: 13px;
+}
+.cor{
+    margin-top: 220px;
+    position: absolute;
+    margin-left: 70px;
+    font-size: 13px;
+
+ }
+.fa-envelope{
+    font-size: 15px;
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 30px;
+ }
+.email{
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 70px;
+    font-size: 13px;
+
+ }
+.s{
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 30px;
+    font-size: 13px;
+}
+.social{
+    margin-top: 10px;
+    font-size: 28px;
+    margin-left: 30px;
+    position: absolute;
+    
+}
+.fa-twitter{
+    margin-top: 420px;
+    margin-left: 70px;
+    position: absolute;
+}
+.fa-google-plus-square{
+    margin-left: 40px;
+    position: absolute;
+    margin-top: 420px;
+}
+.fa-instagram-square{
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 420px;
+}
+.fa-facebook{
+    margin-top: 420px; 
+    position: absolute;
+}
+.list{
+    margin-left: 400px;
+    margin-top: 30px;
+    position: absolute; 
+    font-size: 13px;  
+}
+.list li{
+    padding: 3px;
+}
+.list1{
+    margin-left: 400px;
+    margin-top: 200px;
+    position: absolute;
+    font-size: 13px;  
+
+}
+.list1 li{
+    padding: 3px;
+}
+.list2{
+    margin-left: 650px;
+    margin-top: 30px;
+    position: absolute; 
+    font-size: 13px;   
+}
+.list2 li{
+    padding: 3px;
+}
+.list3{
+    margin-left: 650px;
+    margin-top: 200px;
+    position: absolute;
+    font-size: 13px;  
+}
+.list5{
+    margin-left: 850px;
+    margin-top: 30px;
+    position: absolute;  
+    font-size: 13px;  
+}
+.list4{
+    margin-left: 850px;
+    margin-top: 200px;
+    position: absolute;  
+    font-size: 13px;   
+}
+.list6{
+    margin-left: 1000px;
+    margin-top: 25px;
+    position: absolute;
 }
