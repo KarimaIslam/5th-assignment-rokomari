@@ -124,11 +124,11 @@ display: flex;
 }
 .img{
     cursor: pointer;
-    margin-left: 30px;
+    margin-left: 40px;
     margin-top: 30px;
     float: left;
     width: 26%;
-    margin-right: 50px;
+    margin-right: 35px;
 }
 .sticky-refer span {
     font-size: 16px;
@@ -373,4 +373,25 @@ max-width: 100%;
 }
 .footer p{
     text-align: center;
+}
+/* cart icon */
+.cart-icon{
+    position: relative;
+    display: block;
+}
+.cartimg{
+    max-width: 100%;
+    height: auto;
+            
+}
+.cart-icon img {
+    border-style: none;
+    position: fixed;
+    top: 45%;
+    border: 1px solid #e7e7e7;
+    background: linear-gradient(#fdfdfd, #FFFFFF);
+    box-shadow: 0 0 3px 2px rgba(231, 231, 231, 0.75);
+    padding: 2px 6px 10px 6px ;
+    border-radius: 4px;  
+    cursor: pointer;
 }
