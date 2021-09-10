@@ -200,7 +200,38 @@ display: flex;
 }
 
 .list-book:hover{
-    opacity: 0.3;
+    border: 2px solid #DFDEDB;
+	opacity: 0.4;
+	box-shadow: -0.5px 1px 7px #978B89;
+}
+.fast-product-cart .fas{
+	font-size: 14px;
+	padding: 0 5px;
+}
+.fast-product-cart{
+	display: none;
+}
+.fast-product-1:hover .fast-product-cart{
+	display: block;
+	position: absolute;
+}
+.btn-mid{
+	color: #fff;
+	background: orange;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-size: 15px;
+	position: relative;
+	top: -170px;
+}
+.btn-bottom{
+	color: #fff;
+	background: #37AAF7;
+	padding: 10px 35px;
+	text-decoration: none;
+	text-align: center;
+	position: relative;
+	top: -35px;
 }
 
                 /* book category */
@@ -247,6 +278,7 @@ display: flex;
     margin-top: 30px;
 }
 .button-list a{
+    display: inline-block;
     border: 1px solid #E3F3FA;
     text-decoration: none;
     color: #333333;
@@ -254,7 +286,9 @@ display: flex;
     margin-left: 23px;
     background-color: #E3F3FA;
     border-radius: 3px;
-    transition: background-color 1s ease 0.1s;
+    transition: color 0.5s;
+    border-radius: 7px;
+    z-index: 1;
 }
 .button-list a:hover{
     background-color: #0397D3;
@@ -341,18 +375,11 @@ padding-top: 20px;
     height: 50px;
     text-align: center;
 }
-.payment img{
-    padding-top:10px;
-}
-.payment p{
-
-     display: inline;
-    font-size: 105%;
-    margin-right: 10px;
-    word-spacing: 3px;
-    margin-top: -100px;
-    margin-bottom: 0;
-    
+.payment .pp{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 150px;
+ 
 }
 .p{
     width: 97%;
@@ -393,6 +420,36 @@ font-size: 90%;
     padding: 2px 6px 10px 6px ;
     border-radius: 4px;  
     cursor: pointer;
+}
+.details{
+	overflow: hidden;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.details1{
+	width: 320px;
+	float: left;
+	padding: 0 0 0 20px;
+}
+.last-item{
+	width: 200px;
+}
+.details1 p{
+	font-size: 14px;
+}
+.details1 .icon{
+	float: left;
+	margin-right: 10px;
+	padding: 10px 0;
+}
+.details1 .icon .fas{
+	font-size: 20px;
+}
+.details1 .icon .fab{
+	font-size: 20px;
+}
+.details-desc{
+	float: left;
 }
                             /* footer */
 footer {
